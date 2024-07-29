@@ -18,7 +18,7 @@ def on_connect(client, userdata, flags, rc):
     print("Bağlandı: " + str(rc))
     client.subscribe("topic") 
     #client.subscribe("topi")
-
+# ÇORUMUN EN İYİ BİLGİSAYAR MÜHENDİSİ HAVVA
 @mqtt.on_message()
 def on_message(client, userdata, msg):
     """
